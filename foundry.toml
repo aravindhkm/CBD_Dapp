@@ -5,4 +5,16 @@
 [profile.default]
 solc_version = '0.8.17'
 auto_detect_solc = false
-optimizer_runs = 1_000
+optimizer_runs = 19_066
+via_ir = true
+
+
+[rpc_endpoints]
+goerli = "${GOERLI_URL}"
+bsctestnet = "${BSC_TESTNET_RPC_URL}"
+mumbai = "${MUMBAI_URL}"
+
+[etherscan]
+goerli = { key = "${GOERLI_API_KEY}" }
+bsctestnet = { key = "${BSC_API_KEY}" }
+mumbai = { key = "${POLYGON_API_KEY}" }
