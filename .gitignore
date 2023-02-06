@@ -5,7 +5,7 @@ out/
 .env
 .env.prod
 
-.cmt.txt
+.cmd.txt
 .deploy.txt
 
 # Ignore all vscode settings
